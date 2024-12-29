@@ -14,4 +14,25 @@ scipt indica que seus script sera considerado unico em todo o seu projeto, nao p
 no mo mesmo projeto. 
  ```
 
-## instalando tsnode e configurando code runner
+## instalando tsx e configurando code runner
+
+```bash
+npm i tsx -D 
+
+```
+```md
+crie a pasta .vscode para definir configurações locais ao projeto
+
+dentro insira
+
+settings.json
+
+{
+  "code-runner.executorMap": {
+    "typescript": "tsx"
+  },
+  "code-runner.runInTerminal": true
+}
+
+
+```
