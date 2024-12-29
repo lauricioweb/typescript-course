@@ -36,3 +36,34 @@ settings.json
 
 
 ```
+
+## intalando eslint
+
+```
+npm i @typescript-eslint/esl
+int-plugin @typescript-eslint/parser -D
+
+.eslintrc.json
+```
+module.exports = {
+  env: {
+    browser: true,
+    es2021: true,
+    node: true,
+  },
+  extends: [
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+  ],
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaVersion: 12,
+    sourceType: 'module',
+  },
+  plugins: ['@typescript-eslint'],
+  rules: {
+    // Suas regras personalizadas aqui
+  },
+};
+```
+
