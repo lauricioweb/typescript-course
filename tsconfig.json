@@ -2,6 +2,7 @@
   "compilerOptions": {
     "lib": ["ES2023","DOM"],
     "module": "node16",
-    "target": "ES2023"
+    "target": "ES2023",
+    "outDir": "./dist/assets/js"
   }
 }
