@@ -1,5 +1,5 @@
 const myObj:{
- readonly nome:string,  // nao pode ser alterada 
+  nome:string,  // nao pode ser alterada 
   idade:number
   [key:string] : unknown // index signature para adicionar novas chaves
 } = { 
