@@ -20,3 +20,11 @@ export class Cat extends Animal{
     console.log("fazendo barulho como um gato");
   }
 }
+
+export class Bird extends Animal{
+  public makeNoise(): void {
+      console.log("fazendo barulho");
+   }
+}
+
+
